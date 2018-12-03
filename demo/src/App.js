@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   state= {number: 0}
   updateNumber = () => {
-    alert(this)
+    alert("now you know how to handle onclick event")
     console.log(this);
   }
   render() {
