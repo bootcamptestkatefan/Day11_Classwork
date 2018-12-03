@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  state= {number: 1}
+  state= {number: 0}
   updateNumber = () => {
     alert(this)
     console.log(this);
